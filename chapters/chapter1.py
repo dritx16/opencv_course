@@ -1,9 +1,10 @@
 import cv2
 print("Package imported")
 
-path = "/resources/"
+path = "/home/suleyman/PycharmProjects/pythonProject/resources/"
 
 # Image importing and showing
+
 """
 img = cv2.imread(path + "linkedin_photo.jpeg")
 cv2.imshow("output", img)
