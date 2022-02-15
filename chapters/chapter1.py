@@ -21,12 +21,13 @@ while True:
 
 # Webcam importing and showing
 cap = cv2.VideoCapture(0)
-cap.set(3, 640) # id = 3 means width
-cap.set(4, 480) # id = 4 means height
-cap.set(10, 100) # id = 10 means brightness
+cap.set(3, 640)     # id = 3 means width
+cap.set(4, 480)     # id = 4 means height
+cap.set(10, 100)    # id = 10 means brightness
 while True:
     success, img = cap.read()
     cv2.imshow("video", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 cv2.waitKey(0)
+
