@@ -2,6 +2,7 @@
 import cv2
 import numpy as np
 
+
 # Helper for stacking images
 def stackImages(imgArray,scale,lables=[]):
     sizeW = imgArray[0][0].shape[1]
